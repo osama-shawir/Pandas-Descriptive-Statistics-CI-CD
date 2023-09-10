@@ -18,7 +18,7 @@ ipywidgets==8.1.0
 jupyter_client==8.3.1
 jupyter_core==5.3.1
 jupyter_server==2.7.3
-jupyterlab==6.4.3
+jupyterlab==4.0.5
 nbclient==0.8.0
 nbconvert==7.8.0
 nbformat==5.9.2
