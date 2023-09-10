@@ -4,11 +4,7 @@
 TESTS goes here
 """
 
+from main import ExtractAndAnalyze
 
-from main import IntFactorial
+data = ExtractAndAnalyze('https://www.kaggle.com/datasets/stefanoleone992/mutual-funds-and-etfs?select=ETF+prices.csv')
 
-def test_main():
-    print("The factorial of 4 is :", IntFactorial(4))
-    assert IntFactorial(4) == 24
-
-test_main()
