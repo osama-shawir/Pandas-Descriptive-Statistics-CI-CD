@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
 
-def IntFactorial(x):
-    """This is a recursive function
-    to find the factorial of an integer"""
-    if x == 1:
-        return 1
-    else:
-        # recursive call to the function
-        return (x * IntFactorial(x-1))
+import pandas as pd
+
+def ExtractAndAnalyze(x):
+    """This function extracts data from a csv, stores it into a dataframe, runs exploratory data analytics on it, and returns the data"""
+    df = pd.read_csv(x)
