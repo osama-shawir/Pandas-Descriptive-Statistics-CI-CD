@@ -2,7 +2,7 @@
 FROM python:3.11.5
 
 # Set the working directory in the container
-WORKDIR /usr/src/app
+#WORKDIR /usr/src/app
 
 # Copy the local requirements.txt file into the container at /usr/src/app
 COPY requirements.txt ./
