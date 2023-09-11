@@ -45,4 +45,6 @@ def AircraftAnalytics():
     plt.bar(strikes.keys(), strikes.values())
     plt.xticks(rotation=90)
     plt.title("Aircraft Part Damage Probability")
-    print(max(strikes, key=strikes.get))
+    max_damaged_part = max(strikes, key=strikes.get)
+    print(max_damaged_part)
+    return strikes, max_damaged_part
