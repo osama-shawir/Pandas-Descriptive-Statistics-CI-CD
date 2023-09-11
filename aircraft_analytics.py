@@ -49,5 +49,5 @@ def AircraftAnalytics():
     print(max_damaged_part)
     return strikes, max_damaged_part
 
-if __name__ == "__AircraftAnalytics__":
+if __name__ == "__main__":
     s, m = AircraftAnalytics()
