@@ -20,7 +20,7 @@ def AircraftAnalytics():
     url = f"https://drive.google.com/uc?id={file_id}"
     
     # Download the contents of the CSV file
-    download = requests.get(url).content
+    download = requests.get(url, timeout = 1000).content
     
     # Read the CSV file into a Pandas DataFrame
     df = pd.read_csv(io.StringIO(download.decode("utf-8")))
