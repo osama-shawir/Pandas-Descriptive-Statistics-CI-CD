@@ -31,9 +31,7 @@ Things included are:
 
 * `Pylint`
 
-* `Dockerfile`
-
-* `GitHub copilot`
+* `Codespaces Configuration`
 
 * `jupyter` and `ipython` 
 
