@@ -12,6 +12,6 @@ lint:
 	pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 
 deploy:
-	python test_main.py
+	python aircraft_analytics
 		
 all: install lint format test 
