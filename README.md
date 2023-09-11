@@ -5,7 +5,7 @@
 ## This project builds upon the previous mini project to run some descriptive analytics and present the results using Pandas and MatplotLib
 
 
-*This repo includes the :
+## This repo includes the :
 
 * `Jupyter Notebook including script and the visualizations`
 
@@ -46,8 +46,8 @@ Things included are:
 * `githubactions`
 
 
-*Descriptive Statistics in Pandas
-**Below are the commands executed, the analytics obtained, and the visualizations generated:
+# Descriptive Statistics in Pandas
+## Below are the commands executed, the analytics obtained, and the visualizations generated:
 
 # Pandas Descriptive Statistics Assignment
 ## Aircraft wildlife strikes data | 1990 - 2015
