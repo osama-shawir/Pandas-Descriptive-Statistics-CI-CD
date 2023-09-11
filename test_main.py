@@ -7,4 +7,5 @@ import main
 
 #From main, run the analytics function
 
-main.AircraftAnalytics()
+def test_AircraftAnalyticcs():
+  assert(main.AircraftAnalytics == None)
