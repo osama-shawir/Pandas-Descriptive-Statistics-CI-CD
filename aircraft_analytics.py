@@ -48,3 +48,6 @@ def AircraftAnalytics():
     max_damaged_part = max(strikes, key=strikes.get)
     print(max_damaged_part)
     return strikes, max_damaged_part
+
+if __name__ == "__main__":
+    s, m = AircraftAnalytics()
