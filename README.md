@@ -13,8 +13,6 @@
 
 * `Presented Output and Code in PDF`
 
-* `Presented Output and Code in HTML`
-
 * `Presented Output and Code in Markdown`
 
 * `Dockerfile`
