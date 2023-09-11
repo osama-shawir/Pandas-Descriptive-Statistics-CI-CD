@@ -3,20 +3,13 @@
 """
 TESTS goes here
 """
-from io import StringIO
-from unittest.mock import patch
-from main import AircraftAnalytics
+from aircraft_analytics import AircraftAnalytics  # Import your modified function
 
-def test_AircraftAnalytics(capsys):
-    # Mock the user input for the file_id
-    with patch('builtins.input', return_value="1TAD7Uyc9PjByt_q13uvGXGeubXnujnUi"):
-        AircraftAnalytics()
+def test_aircraft_analytics():
+    # Call the function and get the results
+    strikes, max_damaged_part = AircraftAnalytics()
     
-    # Capture the printed output
-    captured = capsys.readouterr()
-    output = captured.out.strip()
-    
-    # Assert that some expected output is present in the printed output
-    assert "Dataframe Information" in output
-    assert "Summary Statistics" in output
-    # Add more assertions as needed
+    # Check if the calculated values meet your expectations
+    assert isinstance(strikes, dict)
+    assert max_damaged_part in strikes
+    assert max_damaged_part == max(strikes, key=strikes.get)
