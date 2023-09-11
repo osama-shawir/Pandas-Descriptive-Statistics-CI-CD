@@ -23,7 +23,7 @@ def AircraftAnalytics():
     download = requests.get(url, timeout = 1000).content
     
     # Read the CSV file into a Pandas DataFrame
-    df = pd.read_csv(io.StringIO(download.decode("utf-8")))
+    df = pd.read_csv(io.StringIO(download.decode("utf-8")), low_memory=False)
     
     
     # Explore the data
