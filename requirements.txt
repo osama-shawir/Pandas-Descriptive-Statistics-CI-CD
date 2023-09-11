@@ -5,7 +5,7 @@ pytest==7.4.0
 pytest-cov==4.0.0
 pylint==2.15.3
 boto3==1.24.87
-setup_tools==68.2.0
+setup_tools
 
 #web
 fastapi==0.85.0
@@ -26,4 +26,4 @@ nbformat==5.9.2
 notebook==7.0.3
 qtconsole==5.4.4
 traitlets==5.9.0
-matplotlib==3.5.0
+matplotlib
