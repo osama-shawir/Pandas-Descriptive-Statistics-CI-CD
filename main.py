@@ -7,7 +7,7 @@
 
 
 # Import the necessary libraries
-def main():
+def AircraftAnalytics():
     import pandas as pd
     import matplotlib.pyplot as plt
     import requests
