@@ -3,7 +3,7 @@
 """
 TESTS goes here
 """
-from main import AircraftAnalytics
+from aircraft_analytics import AircraftAnalytics
 
 def test_aircraft_analytics():
     strikes, max_damaged_part = AircraftAnalytics()
