@@ -1,6 +1,8 @@
 [![CI](https://github.com/nogibjj/mlops-template/actions/workflows/cicd.yml/badge.svg?branch=GPU)](https://github.com/nogibjj/mlops-template/actions/workflows/cicd.yml)
 [![Codespaces Prebuilds](https://github.com/nogibjj/mlops-template/actions/workflows/codespaces/create_codespaces_prebuilds/badge.svg?branch=GPU)](https://github.com/nogibjj/mlops-template/actions/workflows/codespaces/create_codespaces_prebuilds)
 
+https://github.com/osama-shawir/Trial/actions/runs/6141490186
+
 # Week 2: Pandas Descriptive Statistics Project
 ## This project builds upon the previous mini project to run some descriptive analytics and present the results using Pandas and MatplotLib
 
